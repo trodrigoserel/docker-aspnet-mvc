@@ -33,7 +33,7 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-Populadb.IncluiDadosDB(app);
+//Populadb.IncluiDadosDB(app);
 
 app.UseRouting();
 
